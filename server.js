@@ -115,7 +115,8 @@ app.get('/stock-prediction', (req, res) => {
 });
 
 // 서버 시작
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
+
 try {
     app.listen(PORT, () => {
         console.log('=================================');
