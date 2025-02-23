@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공대생을 위한 도구 모음</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 네비게이션 바 -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-tools"></i> 공대생을 위한 도구 모음
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="calculator.html">공학용계산기</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="useful-sites.html">공대생용사이트모음</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fun-sites.html">공대생용재미사이트</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 히어로 섹션 -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold">공학도를 위한<br>올인원 도구모음</h1>
+                    <p class="lead">계산기부터 유용한 사이트까지,<br>공대생에게 꼭 필요한 모든 것을 한 곳에서</p>
+                    <div class="hero-buttons">
+                        <a href="#features" class="btn btn-primary btn-lg me-3">시작하기</a>
+                        <a href="calculator.html" class="btn btn-outline-primary btn-lg">계산기 바로가기</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1581093458791-b04b56c5a94c?w=1200" 
+                         alt="Engineering Students" 
+                         class="img-fluid rounded shadow-lg hero-image"
+                         loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 특징 섹션 -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="text-center mb-5">주요 기능</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="icon-wrapper">
+                            <img src="https://cdn-icons-png.flaticon.com/512/891/891175.png" 
+                                 alt="Calculator Icon" 
+                                 class="feature-icon"
+                                 loading="lazy">
+                        </div>
+                        <h3>공학용 계산기</h3>
+                        <p>삼각함수, 지수, 로그 등<br>공학 계산에 필요한 모든 기능을 제공합니다.</p>
+                        <a href="calculator.html" class="btn btn-outline-primary">사용하기</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="icon-wrapper">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3075/3075908.png" 
+                                 alt="Useful Sites Icon" 
+                                 class="feature-icon"
+                                 loading="lazy">
+                        </div>
+                        <h3>유용한 사이트 모음</h3>
+                        <p>공학 자료, 논문, 학습 자료 등<br>엄선된 사이트들을 한눈에 확인하세요.</p>
+                        <a href="useful-sites.html" class="btn btn-outline-primary">둘러보기</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="icon-wrapper">
+                            <img src="https://cdn-icons-png.flaticon.com/512/742/742923.png" 
+                                 alt="Fun Sites Icon" 
+                                 class="feature-icon"
+                                 loading="lazy">
+                        </div>
+                        <h3>재미있는 사이트</h3>
+                        <p>공대생들을 위한<br>재미있는 컨텐츠와 유머를 제공합니다.</p>
+                        <a href="fun-sites.html" class="btn btn-outline-primary">구경하기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 통계 섹션 -->
+    <section class="stats">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="stat-item">
+                        <h3>1,000+</h3>
+                        <p>일일 사용자</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>유용한 사이트</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>항시 이용 가능</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA 섹션 -->
+    <section class="cta">
+        <div class="container text-center">
+            <h2>지금 바로 시작하세요</h2>
+            <p class="lead">공대생활이 더욱 편리해질 거예요</p>
+            <a href="calculator.html" class="btn btn-light btn-lg">계산기 사용하기</a>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>공대생을 위한 도구 모음</h5>
+                    <p>공학도들의 학업과 생활을 더욱 편리하게</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2024 공대생을 위한 도구 모음. All rights reserved.</p>
+                    <div class="credits">
+                        <small>Icons by <a href="https://www.flaticon.com/" target="_blank">Flaticon</a></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
